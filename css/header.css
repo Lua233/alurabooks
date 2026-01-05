@@ -16,7 +16,7 @@
 }
 
 .container__botao:checked~.container__rotulo>.cabecalho__menu-hamburguer {
-    background-image: url("/assets/Menu_Azul.svg");
+    background-image: url("../assets/Menu_Azul.svg");
 }
 
 .container__botao:checked~.container__rotulo {
@@ -115,7 +115,7 @@
         display: none;
     }
 
-    .opcoes__botao:checked ~ .lista-menu {
+    .opcoes__botao:checked~.lista-menu {
         display: block;
         width: auto;
     }
